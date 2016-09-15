@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AxisLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="AxisView">
+        <item name="android:layout_width">@dimen/accel_value_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:padding">@dimen/default_padding</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">@dimen/default_accel_text_size</item>
+    </style>
+
+    <style name="AxisLetter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">@dimen/default_margin</item>
+        <item name="android:layout_marginRight">@dimen/default_margin</item>
+        <item name="android:padding">@dimen/default_padding</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">@dimen/default_accel_text_size</item>
+    </style>
+
+    <style name="LocationLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="LocationText">
+        <item name="android:layout_width">@dimen/location_value_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+        <item name="android:layout_marginRight">@dimen/default_margin</item>
+        <item name="android:padding">@dimen/default_padding</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">@dimen/default_location_text_size</item>
+    </style>
+
+    <style name="LocationView">
+        <item name="android:layout_width">@dimen/location_value_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:padding">@dimen/default_padding</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">@dimen/default_location_text_size</item>
+    </style>
+</resources>

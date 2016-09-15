@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    tools:context="com.example.aemacc13.accelerameter.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            style="@style/LocationLayout">
+
+            <TextView
+                style="@style/LocationText"
+                android:gravity="center"
+                android:text="LATITUDE:"/>
+
+            <TextView
+                android:id="@+id/latitude_view"
+                style="@style/LocationView" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LocationLayout">
+
+            <TextView
+                style="@style/LocationText"
+                android:gravity="center"
+                android:text="LONGITUDE:"/>
+
+            <TextView
+                android:id="@+id/longitude_view"
+                style="@style/LocationView" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AxisLayout">
+
+            <TextView
+                android:id="@+id/x_accel_view"
+                style="@style/AxisView"/>
+
+            <TextView
+                style="@style/AxisLetter"
+                android:text="@string/x_axis" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AxisLayout">
+
+            <TextView
+                android:id="@+id/y_accel_view"
+                style="@style/AxisView"/>
+
+            <TextView
+                style="@style/AxisLetter"
+                android:text="@string/y_axis" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AxisLayout">
+
+            <TextView
+                android:id="@+id/z_accel_view"
+                style="@style/AxisView"/>
+
+            <TextView
+                style="@style/AxisLetter"
+                android:text="@string/z_axis" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
